@@ -36,9 +36,10 @@
   "dependencies": {
     "css-loader": "^0.9.1",
     "faker": "^2.1.2",
-    "fixed-data-table": "^0.1.0",
+    "fixed-data-table": "^0.1.2",
     "object.assign": "^1.1.1",
     "react": "^0.12.2",
-    "style-loader": "^0.8.2"
+    "style-loader": "^0.8.2",
+    "array.prototype.find": "^1.0.0"
   }
 }
