@@ -11,7 +11,7 @@ change node_modules/fixed-data-table/internal/FixedDataTable.react.js
 
 add cellRenderer: columnGroups[i].props.groupHeaderRenderer || renderToString, to line 847
 _createGroupHeaderColumns should now look like this
-
+```javascript
   _createGroupHeaderColumns:function(/*array*/ columnGroups) /*array*/  {
     console.log('got here');
     var newColumnGroups = [];
@@ -29,5 +29,6 @@ _createGroupHeaderColumns should now look like this
     }
     return newColumnGroups;
   },
+  ```
 observe ColumnGroupHeader can now be overridden
 
