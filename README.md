@@ -6,7 +6,8 @@ npm i && npm start
 
 visit localhost:3000
 
-The problem is that groupHeaderRenderer prop is not being called on ColumnGroup (without it I can't override the ColumnGroup to have Select All Components) https://facebook.github.io/fixed-data-table/api-columngroup.html#-groupheaderrenderer-
+[groupHeaderRenderer prop](https://facebook.github.io/fixed-data-table/api-columngroup.html#-groupheaderrenderer-)
+The problem is that groupHeaderRenderer prop is not being called on ColumnGroup (without it I can't override the ColumnGroup to have Select All Components) 
 change node_modules/fixed-data-table/internal/FixedDataTable.react.js
 
 add cellRenderer: columnGroups[i].props.groupHeaderRenderer || renderToString, to line 847
