@@ -2,8 +2,7 @@
 
 Git clone https://github.com/TomClarkson/fixeddatatable.git
 
-npm i
-npm start
+npm i && npm start
 
 visit localhost:3000
 
